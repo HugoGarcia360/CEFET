@@ -1,3 +1,4 @@
+//Exercicio 2 da lista de Exercicios de Revisão 07/04/2022
 public class Exercicio5 {
     public static void main (String [] args){
         int x=0; int y=0; int aux;

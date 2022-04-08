@@ -1,3 +1,4 @@
+//Exercicio 6 da lista de Exercicios de Revisão 07/04/2022
 import java.util.Scanner;
 
 public class Exercicio6 {
