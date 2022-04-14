@@ -13,10 +13,13 @@ public class ExercicioMatriz {
         int matriz[][] = new int[5][5];
         int tam = 5;
 
-        for (int i = 0; i < 5; i++) { // preenche matriz
+        for (int i = 0; i < 5; i++) { // preenche matriz e troca terceira linha por 1
             for (int j = 0; j < 5; j++) {
                 System.out.println("Digite um número inteiro");
                 matriz[i][j] = scan.nextInt();
+                if (i==2){
+                    matriz[2][j] = 1;
+                }
             }
         }
 
