@@ -1,10 +1,12 @@
-import java.util.Scanner;
-
 /*Crie um programa em que o usuário preencha, via teclado, uma matriz 5 x 5.
 Após o preenchimento desta matriz:
 Exiba a soma dos valores da Diagonal Principal da Matriz
 Exiba todos os valores da Diagonal Secundária da Matriz
-Substitua os elementos da terceira linha pelo valor 1. E apresente a matriz ao final da alteração. */
+Substitua os elementos da terceira linha pelo valor 1. E apresente a matriz ao final da alteração. 
+Disponível em : https://github.com/HugoGarcia96/CEFET  */
+
+import java.util.Scanner;
+
 public class ExercicioMatriz {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
