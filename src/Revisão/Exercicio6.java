@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Exercicio6 {
     public static void main (String [] args){
-        int numero1=0, numero2=0, aux=0, soma=0, multi=0;
+        int numero1=0, numero2=0, soma=0, multi=0;
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Digite o primeiro numero");
@@ -22,6 +22,6 @@ public class Exercicio6 {
                 System.out.println("A multiplicacao dos numeros e " + multi);
             }
         }
-
+        scan.close();
     }
 }

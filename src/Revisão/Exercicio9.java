@@ -51,6 +51,6 @@ public class Exercicio9 {
             System.out.println("Digite o segundo valor");
             val2 = scan.nextFloat();
         }
-
+        scan.close();
     }
 }

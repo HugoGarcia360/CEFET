@@ -44,6 +44,7 @@ public class ExercicioMatriz {
             System.out.print(matriz[i][tam - 1 - i] + " ");
 
         }
+        scan.close();
 
     }
 }

@@ -19,6 +19,7 @@ public class Exercicio4 {
             System.out.println("The square root of " + number + " is " + squareRoot);
         }
 
+        scan.close();
     }
 
 }

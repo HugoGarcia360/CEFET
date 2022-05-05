@@ -13,5 +13,6 @@ public class Exercicio1 {
         x = a+b;
         System.out.println("A soma dos valores e " + x);
         
+        scan.close();
     }
 }

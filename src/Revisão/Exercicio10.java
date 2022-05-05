@@ -1,3 +1,11 @@
+/*Em uma indústria metalúrgica o custo de produção de uma peça automotiva
+corresponde a um custo fixo mensal de R$5.000,00 acrescido de um custo
+variável de R$55,00 por unidade produzida mais 25% de impostos sobre o
+custo variável. Considerando que o preço de venda dessa peça é de
+R$102,00, escrever:
+a) a função que calcula o custo da produção de x peças.
+b) a função que retorna a receita referente a venda de x peças.
+c) a função que calcula o lucro na venda de x peças. */
 import java.util.Scanner;
 
 public class Exercicio10 {

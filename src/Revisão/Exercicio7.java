@@ -14,5 +14,7 @@ public class Exercicio7 {
             }
             System.out.println("A soma dos numeros maiores que zero e " + soma);
         }
+        
+        scan.close();
     }
 }

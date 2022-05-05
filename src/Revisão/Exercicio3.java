@@ -15,9 +15,6 @@ public class Exercicio3 {
         System.out.println("O numero de funcionario e " + numero);
         System.out.printf("O salario do funcionario e %.2f \n",salario );
         
-        
-        
-        
-        
+        scan.close();
     }
 }
