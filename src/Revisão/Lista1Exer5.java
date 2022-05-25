@@ -23,7 +23,7 @@ public class Lista1Exer5 {
 
         Arrays.sort(notas);
         media = (notas[0] * 3) + (notas[1] * 3) + (notas[2] * 4);
-        float resultado = media / 4;
+        float resultado = media / 10;
 
         if (resultado >= 60) {
             System.out.println("APROVADO\nA sua nota e " + resultado);
