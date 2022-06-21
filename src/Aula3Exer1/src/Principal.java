@@ -3,10 +3,11 @@ public class Principal {
         Pessoa p1,p2,p3;
 
         p1 = new Pessoa();
-        p2 = new Pessoa("Marina", "feminino", "111.111.111-11",30);
-        p3 = new Pessoa("Pedro");
+        p2 = new Pessoa("masculino", "Hugo", "111419", 26);
+        p3 = new Pessoa("Hugo");
         p1.ExibeInformacoes();
         p2.ExibeInformacoes();
+        p3.ExibeInformacoes();
     }
     
 }

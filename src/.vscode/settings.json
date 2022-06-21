@@ -1,8 +1,11 @@
 {
     "java.project.sourcePaths": [
         "Revisão",
+        "Aula4Exer1",
+        "Aula3Exer2/src",
+        "Aula3Exer1/src",
         "Aula2Exe1/src",
         "Aula1Exer2/src",
-        "Aula3Exer1/src"
+        ""
     ]
 }

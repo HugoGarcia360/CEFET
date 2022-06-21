@@ -1,4 +1,5 @@
 public class FaturaTeste {
+
     public static void main(String[] args) throws Exception {
         Fatura f1 = new Fatura(1, "Fatura do cliente x");
         Fatura f2 = new Fatura(2, "Fatura da empresa x");
@@ -16,6 +17,6 @@ public class FaturaTeste {
         System.out.printf("Descricao da fatura : %s\n", f2.getDescString());
         System.out.printf("Quantidade de item : %d\n", f2.getQuantidade());
         System.out.printf("Preco do item : %.2f\n", f2.getPreco());
-        System.out.prtinf("Total da Fatura : %.2f\n", f2.getTotalFatura());
+        System.out.printf("Total da Fatura : %.2f\n", f2.getTotalFatura());
     }
 }
