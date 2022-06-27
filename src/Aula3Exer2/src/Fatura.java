@@ -3,7 +3,7 @@ public class Fatura {
     private double preco;
     private String descricao;
 
-    public Fatura(int numero, String descricao){
+    public Fatura(int numero, String descricao){ //construtor da classe Fatura
         this.numero=0;
         this.quantidade=0;
         this.descricao = "";
