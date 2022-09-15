@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class Agenda {
 
     private int quantAmigos, quantConhecidos;
-    private Pessoa p1;
+    private Amigo p1;
     Scanner scan = new Scanner(System.in);
 
     public Agenda(int quantPessoas) {
         p1 = new Pessoa[quantPessoas];
-        int random = 1 + (Math.random() * 2); // gera numero aleatorio 1 ou 2
+        int random = (int) (1 + (Math.random() * 2)); // gera numero aleatorio 1 ou 2
 
         if (random == 1) { // se valor gerado for 1 cria um amigo
             p1 = new Amigo();

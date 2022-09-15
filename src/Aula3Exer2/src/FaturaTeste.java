@@ -12,7 +12,7 @@ public class FaturaTeste {
         System.out.printf("Numero da fatura : %d\n", f1.getNumero());
         System.out.printf("Numero da fatura : %s\n", f1.getDescString());
         System.out.printf("Quantidade de item %d\n", f1.getQuantidade());
-        System.ou.tprintf("Preco do item %.2f\n", f1.getPreco());
+        System.out.printf("Preco do item %.2f\n", f1.getPreco());
         System.out.printf("Total Fatura : %.2f\n", f1.getTotalFatura());
         System.out.printf("Descricao da fatura : %s\n", f2.getDescString());
         System.out.printf("Quantidade de item : %d\n", f2.getQuantidade());
