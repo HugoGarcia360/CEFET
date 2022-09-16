@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Agenda {
 
     private int quantAmigos, quantConhecidos;
-    private Amigo p1;
+    private Pessoa[] p1;
     Scanner scan = new Scanner(System.in);
 
     public Agenda(int quantPessoas) {
