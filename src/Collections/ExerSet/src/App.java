@@ -38,29 +38,30 @@ public class App {
         System.out.println(coresArcoIris2);
 
         System.out.println("\nExiba as cores na ordem inversa da que foi informada:");
-        Set <String> coresArcoIris3 = new LinkedHashSet<>(  // Cria um conjunto vazio
-            Arrays.asList("Violeta", "Anil", "Azul", "Verde", "Amarelo", "Laranja", "Vermelho"));
+        Set <String> coresArcoIris3 = new LinkedHashSet<>( // Cria um conjunto vazio
+                Arrays.asList("Violeta", "Anil", "Azul", "Verde", "Amarelo", "Laranja", "Vermelho"));
         System.out.println(coresArcoIris3);
+
         List <String> coresArcoIrisList = new ArrayList<>(coresArcoIris3); // Cria uma lista com os elementos do conjunto
         Collections.reverse(coresArcoIrisList); // Inverte a ordem dos elementos da lista
         System.out.println(coresArcoIrisList);
         System.out.println(coresArcoIris.isEmpty());
 
         System.out.println("\n\nExiba todas as cores que começam com a letra v:");
-        for ( String cor : coresArcoIris){
-            if (cor.startsWith("V")) System.out.println(cor);
+        for (String cor : coresArcoIris) {
+            if (cor.startsWith("V"))
+                System.out.println(cor);
         }
-        
+
         System.out.println("\nRemovendo todas as cores que não começam com a letra V:");
-        Iterator <String> it = coresArcoIris.iterator();   // Cria um iterador para o conjunto
-        while(it.hasNext()){                               // enquanto o iterador tiver elementos
-            if (it.next().startsWith("V")){  // se o elemento não começar com a letra v
+        Iterator<String> it = coresArcoIris.iterator(); // Cria um iterador para o conjunto
+        while (it.hasNext()) { // enquanto o iterador tiver elementos
+            if (it.next().startsWith("V")) { // se o elemento não começar com a letra v
                 it.remove();
             }
         }
 
         System.out.println(coresArcoIris);
-
         System.out.println("Limpe o conjunto:");
         coresArcoIris.clear();
         System.out.println("Confira se o elemento está vazio:");
