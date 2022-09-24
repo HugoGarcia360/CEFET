@@ -1,3 +1,5 @@
+package Prova2;
+
 public class App {
     public static void main(String[] args) throws Exception {
         Cliente clientes[] = new Cliente[5];

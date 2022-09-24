@@ -1,3 +1,5 @@
+package Aula7Exer1;
+
 import java.util.Scanner;
 
 public class Agenda {

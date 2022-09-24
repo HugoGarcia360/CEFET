@@ -1,3 +1,5 @@
+package Aula7Exer1;
+
 public class Pessoa {
     private String nome;
     private int idade;

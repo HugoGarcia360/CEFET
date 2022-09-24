@@ -1,3 +1,5 @@
+package Collections.ExemploSet2.src;
+
 import java.util.Objects;
 
 public class Serie implements Comparable<Serie> {

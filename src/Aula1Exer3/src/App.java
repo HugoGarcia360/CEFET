@@ -1,3 +1,5 @@
+package Aula1Exer3.src;
+
 /*Crie uma aplicação em Java, que contenha a classe
 Caneta onde as características desta caneta podem ser
 descritas pelos seguintes atributos: cor, ponta (0.5, 0.7

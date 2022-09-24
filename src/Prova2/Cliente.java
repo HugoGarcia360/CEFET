@@ -1,3 +1,5 @@
+package Prova2;
+
 public class Cliente {
     private String cpf, telefone, categoria;
     public String nome, email;

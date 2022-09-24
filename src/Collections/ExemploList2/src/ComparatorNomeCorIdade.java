@@ -1,3 +1,5 @@
+package Collections.ExemploList2.src;
+
 import java.util.Comparator;
 
 public class ComparatorNomeCorIdade implements Comparator <Gato>{

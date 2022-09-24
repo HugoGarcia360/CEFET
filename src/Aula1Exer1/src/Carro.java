@@ -1,3 +1,5 @@
+package Aula1Exer1.src;
+
 public class Carro {
     String nome, marca;
     float velocidadeMax;

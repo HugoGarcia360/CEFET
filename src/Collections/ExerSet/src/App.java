@@ -1,3 +1,5 @@
+package Collections.ExerSet.src;
+
 
 /*
 Crie um conjunto contendo as cores do arco-íris e:

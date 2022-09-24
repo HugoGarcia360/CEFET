@@ -1,3 +1,4 @@
+package Collections.ExemploSet2.src;
 // dada as informações sobre as series favoritas de um usuario,
 // crise um conjunto e ordene esse conjunto, exibindo (nome - genero - tempo de episodio
 

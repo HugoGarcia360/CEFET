@@ -1,3 +1,5 @@
+package Aula1Exer1.src;
+
 public class App {
     public static void main(String[] args) throws Exception {
         Carro c1 = new Carro(); //cria objeto com nome c1 do tipo carro

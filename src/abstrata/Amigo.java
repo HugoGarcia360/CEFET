@@ -1,3 +1,5 @@
+package abstrata;
+
 public class Amigo extends Pessoa{
     private String anv;
     public Amigo(){

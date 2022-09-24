@@ -1,3 +1,5 @@
+package Collections.ExemploMap.src;
+
 import java.util.*;
 
 public class App {

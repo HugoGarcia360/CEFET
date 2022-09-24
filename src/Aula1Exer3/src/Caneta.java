@@ -1,3 +1,5 @@
+package Aula1Exer3.src;
+
 public class Caneta {
     boolean tampada = true;
     String cor;

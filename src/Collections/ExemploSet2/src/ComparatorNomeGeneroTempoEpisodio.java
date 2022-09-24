@@ -1,3 +1,5 @@
+package Collections.ExemploSet2.src;
+
 import java.util.Comparator;
 
 public class ComparatorNomeGeneroTempoEpisodio implements Comparator<Serie> {

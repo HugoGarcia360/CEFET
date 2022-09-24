@@ -1,3 +1,5 @@
+package Aula7Exer1;
+
 public class Conhecido extends Pessoa{
     String email;
 

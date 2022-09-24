@@ -1,3 +1,5 @@
+package abstrata;
+
 public class Conhecido  extends Pessoa{
     private String email;
 
