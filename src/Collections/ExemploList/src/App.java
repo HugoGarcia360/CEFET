@@ -10,8 +10,8 @@ import java.util.List;
 public class App {
     public static void main(String[] args) throws Exception {
     
-        List<Double> notas = new ArrayList<>();
-        notas.add(7.0);
+        List<Double> notas = new ArrayList<>(); //cria uma lista de notas
+        notas.add(7.0); //adiciona notas
         notas.add(8.0);
         notas.add(9.0);
         notas.add(5.0);
@@ -20,11 +20,11 @@ public class App {
         notas.add(3.0);
         notas.add(4.0);
         System.out.println(notas);
-        System.out.println("A nota na posicao 0 e: " + notas.get(0));
-        System.out.println("A nota 7.0 esta na posicao : " + notas.indexOf(7.0));
+        System.out.println("A nota na posicao 0 e: " + notas.get(0)); //retorna a nota na posicao 0
+        System.out.println("A nota 7.0 esta na posicao : " + notas.indexOf(7.0)); //retorna a posicao da nota 7.0
 
         System.out.println("Adicionando a nota 8 na posição 7: ");
-        notas.add(7, 8.0);
+        notas.add(7, 8.0); //adiciona a nota 8 na posicao 7
         System.out.println(notas);
         System.out.println("Substituindo a nota 5.0 pela nota 6.0: ");
         notas.set(notas.indexOf(5.0), 6.0);
