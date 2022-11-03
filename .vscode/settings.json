@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
         "src/Revisão",
+        "src/Collections/ExemploList/src",
         "src/Aula7Exer1",
         "src/Aula3Exer2/src",
-        "src/Collections/ExemploList/src"
+        "src/Exceptions/src"
     ]
 }
